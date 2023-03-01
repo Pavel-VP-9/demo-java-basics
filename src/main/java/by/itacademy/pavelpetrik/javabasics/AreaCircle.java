@@ -9,7 +9,7 @@ public class AreaCircle {
         System.out.println(" Введите значение радиуса круга : ");
         double radius = scan.nextDouble();
         // Площадь круга
-        double area = Math.PI*radius*radius;
+        double area = Math.PI*radius*radius;//Math.PI*Math.pow(r,2);
         System.out.println(" Площадь круга: " + area);
         //Длина окружности
         double circumference = Math.PI*2*radius;
